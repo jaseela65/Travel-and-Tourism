@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Font Awesome Icon Library -->
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <style>
+  body {
+  background-color:white;
+  background-repeat: no-repeat;background-size: cover;}
+
+.cont {
+  width: 100%;
+  height: 100%;
+  background:center ;
+ 
+}
+
+.checked {
+  color: orange;
+}
+
+div.scroll-container {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 3px;
+ 
+}
+
+div.scroll-container img {
+  padding: 5px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  font-size: 20px;
+}
+.responsive {
+  width: 100%;
+  max-width: 600px;
+  height: 340px;
+}
+.responsived {
+  width: 100%;
+  max-width: 1300px;
+  max-height: 800;
+}
+  </style>
+</head>
+<body>
+ 
+  <div class="container-fluid" style="background-color: white;color:rgb(0, 136, 255);border-bottom-color:  black;border-bottom: 0.8px solid rgb(184, 182, 182);align-items: right;">
+     
+
+    <nav class="navbar-right navbar-expand-lg bg-none navbar-dark" style="font-family:Times New Roman;
+    font-size: 22px;">
+    <div class="container-fluid">
+      <ul class="navbar-nav" style="padding:2rem;">
+        <li class="nav-item" style="color:transparent;padding: 15px;">
+          <a class="nav-link active"  href="{% url 'home' %}" style="color:black;"><b>Home</b></a>
+        </li>
+        <li class="nav-item" style="color:transparent;padding: 15px;">
+          <a class="nav-link" href="{% url 'log' %}" style="color:black;"><b>Book Now</b></a>
+        </li>
+       
+      </ul>
+    </div>
+    </nav></div><!--
+  <div class="container-fluid" style="background-color: white;color:rgb(0, 136, 255);border-bottom-color:  black;border-bottom: 0.8px solid rgb(184, 182, 182);align-items: right;">
+        <nav class="navbar-right navbar-expand-lg bg-none navbar-dark" style="font-family:Times New Roman;
+        font-size: 22px;">
+        <div class="container-fluid">
+          <ul class="navbar-nav" >
+            <li class="nav-item" style="color: white;padding: 8px;">
+              <a class="nav-link " style="color:rgb(8, 8, 8); float: right;" href="{% url 'home' %}"><b>Home</b></a>
+            </li>
+            <li class="nav-item "  style="padding: 8px;">
+              <a  class="nav-link " href="{% url 'log' %}"style="font-size:20px;color:black"><b>Book Now</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </div>-->
+  <div class="container" >
+    <div class="container mt-6">
+       <div class="row">
+         <div class="col-sm-6">
+           <h1  style="font-family: 'Times New Roman', Times, serif; font-size: 4rem;"><b>Grand Hyatt Kochi Bolgatty</b></h1>
+      <h4 style="font-family: 'Times New Roman', Times, serif;"><b>4.0&nbsp; &nbsp;</b>Very Good&nbsp; &nbsp;
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star" style="color: bisque;"></span></h4><br>
+      <p style="font-size: 2rem;font-family: 'Times New Roman', Times, serif;">
+        Located in Cochin, Grand Hyatt Kochi Bolgatty is a waterfront resort featuring two swimming pools, a tennis court, as well as a fitness centre.
+
+All rooms are air-conditioned with private bathrooms and hot tub. Rooms and suites are well equipped with workstations & flat screen TV. The rooms offer spectacular views of lake, garden, city or pool.
+
+Guests have access to the business centre, spa & salon, kids play area and some of the finest signature restaurants in the city.
+
+A continental or buffet breakfast is available daily at the property.
+
+
+</p></div>
+ <div class="col-sm-6" ><br>
+      <img src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/256518845.jpg?k=2d9e94277caccdebe9f1b1fc9633616b2f9ea2377340aa55007ba78134a5b2ef&o=&hp=1" class="responsive" width="600" height="400">
+    </div>
+  
+</div><br><br>
+<div class="scroll-container">
+  <img src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/156617146.jpg?k=bc7265d7c8888f787bef052364021def2fcd9da4dcf9e1f461954ae96bba9879&o=&hp=1" alt="Cinque Terre" width="600" height="400" style="width:100%;height:auto">
+  <img src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/156617050.jpg?k=2acf495dbd4402bc96cb7c571b31b11824a38e257aa5d2832c733196b1a230a7&o=&hp=1" alt="Forest" width="600" height="400" style="width:100%;height:auto">
+  <img src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/156617190.jpg?k=c0b3b335944af834772050cfdc2a967249fefc01132b81d1239119fd25c7fcb1&o=&hp=1" alt="Northern Lights" width="600" height="400" style="width:100%;height:auto">
+  <img src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/156617043.jpg?k=00315aa17a785eeb99cee69ffb277401148a4344eaaba363d3c74c717fbfcd16&o=&hp=1" alt="Mountains" width="600" height="400" style="width:100%;height:auto">
+  <img src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/156617145.jpg?k=12d867abcc94f00d60efe9e1e7dbd378bb08e2ff1fcdd589df2d3b89cded3c69&o=&hp=1" alt="Mountains" width="600" height="400" style="width:100%;height:auto">
+  <img src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/156617030.jpg?k=ec4b07bd8210a1ecdc0f8697cda2464672f9d598299856ddec81524896859144&o=&hp=1" alt="Mountains" width="600" height="400"style="width:100%;height:auto">
+  <img src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/256518845.jpg?k=2d9e94277caccdebe9f1b1fc9633616b2f9ea2377340aa55007ba78134a5b2ef&o=&hp=1" alt="Mountains" width="600" height="400"style="width:100%;height:auto">
+</div>
+
+<div class="container"><br><br>
+
+  <div class="card" style="border: 0;">
+    <h2 style="font-family: 'Times New Roman', Times, serif; font-size: 2rem;">&nbsp;&nbsp;<b>Location</b></h2>
+    
+    <div class="card-body">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15716.296201890831!2d76.3606986!3d10.0107422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d9bfaa6db61%3A0xa5df6acfc2d1e5fd!2sALTOS%20Technologies!5e0!3m2!1sen!2sin!4v1686842886012!5m2!1sen!2sin" width="1300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="responsived"></iframe>
+      <p style="font-size:2rem;font-family:'Times New Roman', Times, serif;">
+        <br><b>Address: </b> 1st floor, Thapasaya Building ,Infopark, Kakanad ,  Kochi,  Kerala -682042<br><br>
+        <b>Phone:</b> 0484 266 0000
+</p></div> 
+   
+  </div>
+</div>
+<!--
+<div class="container">
+  <br><br>
+<div style="overflow-x:auto;border: 0;">
+  <table >
+    <tr style="color: rgb(60, 106, 174);"><h4>
+      <th>Property amenities</th>
+      <th>Room features</th>
+      <th>Room features</h4></th>
+     
+    </tr>
+    <tr>
+      <td>Free parking<br>
+        Free breakfast<br>
+        Car hire<br>
+        Meeting rooms<br>
+        Baggage storage<br>
+        Currency exchange<br>
+        24-hour front desk<br>
+        Laundry service</td>
+      <td>Housekeeping<br>
+        Room service<br>
+        Iron<br>
+        Refrigerator<br>
+        Flatscreen TV<br><br></td>
+      <td>Bridal suite<br>
+        Suites<br>Master Bedroom<br>Single Room<br><br><br></td>
+      
+    </tr>
+    
+  </table>
+</div>--><br><br><br></div></body>
+</html>

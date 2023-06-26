@@ -1,0 +1,296 @@
+
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  
+<style>
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+.responsive {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
+.responsived {
+  width: 100%;
+  max-width: 600px;
+  max-height: 350px;
+}
+.bg {
+  /* The image used */
+  background-image: url;
+}.bg-image {
+  /* Full height */
+  height: 50%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("https://hexaware.com/wp-content/uploads/2019/11/United-Kingdom.jpg"); }</style>
+</head>
+<body style="font-family: 'Times New Roman', Times, serif;"> 
+ 
+  <nav class="navbar-right navbar-expand-lg bg-none navbar-dark" style="font-family:Times New Roman;
+font-size: 22px;margin: 0;">
+<div class="container-fluid">
+  <ul class="navbar-nav" style="float: right;">
+    <li class="nav-item" style="color:transparent;">
+      <a class="nav-link active" href="{% url 'home' %}" style="color: rgb(10, 9, 9);"><b>Home</b></a>
+    </li>
+    <li class="nav-item" style="color:transparent;">
+      <a class="nav-link" href="{% url 'home' %}" style="color: rgb(6, 6, 6);"><b>Log Out</b></a>
+    </li>
+   
+  </ul>
+<br>
+</div><br><br>
+</nav>
+<div class="bg-image img1"></div>
+
+      <div class="container" >
+<h1 style="color: rgb(26, 26, 191);text-align: center;font-size: 2.5rem;"><b>UK</b><br><br></h1>
+<div class="container mt-6">
+    <div class="row">
+      <div class="col-sm-6">
+        <h3 style="font-size: 1.8rem;text-align: justify;" ><b>Welcome to Britain in 2023</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3><br><br>
+        <p style="font-size: 1.2rem;">Expect inventive new experiences and captivating stories, brought together with a dose of British flair. From pioneering cultural spaces and urban havens to countryside trails and relaxing wellness retreats, it’s all happening on our shores and you’re invited!</p>
+        <p style="font-size: 1.2rem;">Take in royal experiences to mark the dawn of a new era or uncover Liverpool’s impressive musical legacy. Enjoy immersive new theatre in the West End’s latest venue, or see pedal power take centre stage as the first edition of the UCI Cycling World Championships arrives in Glasgow. </p>
+      <p style="font-size: 1.2rem;">Venture off the beaten track for fresh coastal perspectives in Wales and laugh along at the Edinburgh Festival Fringe. Embrace Manchester’s newest cultural hub, Factory International, or tuck into big flavours as Bristol’s harbourside street food vendors serve up fabulous fusions and creative concoctions.</p>
+    <p style="font-size: 1.2rem;">Whatever your fancy, it’s time to experience Britain differently.</p></div>
+      <div class="col-sm-6" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img   src="https://www.visitbritain.com/sites/cms/files/styles/media_component_3_4_xl/public/lookatmedam/607563l5.jpg.webp?h=b044a8f9&itok=Sv3yBtfo" class="responsive" width="600" height="400">
+         </div>
+      
+    </div></div></div><br>
+    <div class="container-fluid" style="margin: 0;"><br><br><br>
+<p style="font-size: 2rem;text-align: center;color: red;"><b>Top City Destinations</b><br></p>
+
+<p style="text-align: center;font-size: 1.2rem;">Where iconic skylines meet fascinating history, where places steeped in heritage come<br>
+     alive with vibrant nightlife and where Michelin-star restaurants sit <br>
+     alongside street food. Whatever you find in Great Britain and Northern <br>
+     Ireland's cities, you'll find it with a warm British welcome.</p><br>
+
+ <div class="d-flex flex-row flex-nowrap overflow-auto">
+      <div class="card card-block mx-2" style="min-width: 310px;border: 0;">
+        <img src="https://www.visitbritain.com/sites/cms/files/styles/media_component_4_3_xl/public/lookatmedam/608417l5.jpg.webp?h=2e5cdddf&itok=VlXB1Uwr" alt="Jane" style="width:100%">
+        <div class="container"><br>
+          <h4><b>Liverpool</b></h4>
+          <p class="title"> From The Beatles to Frankie Goes to Hollywood, Liverpool is a UNESCO City of Music with seriously cool credentials.</p>
+          
+        </div></div>
+      <div class="card card-block mx-2" style="min-width: 310px;border: 0">
+        <img src="https://www.visitbritain.com/sites/cms/files/styles/media_component_4_3_xl/public/lookatmedam/607736l5.jpg.webp?h=56d0ca2e&itok=lHl7p9gK" alt="Jane" style="width:100%">
+        <div class="container"><br>
+          <h4><b>Cambridge</b></h4>
+          <p class="title">The city of Cambridge is a hotbed of history, architecture and innovation.</p></p>
+        </div></div>
+        <div class="card card-block mx-2" style="min-width: 310px;border: 0">
+            <img src="https://www.visitbritain.com/sites/cms/files/styles/media_component_4_3_xl/public/lookatmedam/609431l5.jpg.webp?h=56d0ca2e&itok=ZeBpzyZT" alt="Jane" style="width:100%">
+            <div class="container"><br>
+              <h4><b>Bristol</b></h4>
+              <p class="title"> Cool creative Bristol is a must-see for art, culture and action-packed adventure.</p>
+            </div></div>
+           
+            <div class="card card-block mx-2" style="min-width: 310px;border: 0;">
+                <img src="https://www.visitbritain.com/sites/cms/files/styles/media_component_4_3_xl/public/lookatmedam/608065l5.jpg.webp?h=84071268&itok=punagc2Q" alt="Jane" style="width:100%">
+                <div class="container"><br>
+                  <h4><b>Brighton</b></h4>
+                  <p class="title"> A quirky seaside city filled with diverse cuisine, vintage shopping and adrenaline fuelled adventure.</p>
+                </div></div>
+
+                <div class="card card-block mx-2" style="min-width: 310px;border: 0;">
+                    <img src="https://www.visitbritain.com/sites/cms/files/styles/media_component_4_3_xl/public/lookatmedam/604975l5.jpg.webp?h=56d0ca2e&itok=AiKzmAvV" alt="Jane" style="width:100%">
+                    <div class="container"><br>
+                      <h4><b>York</b></h4>
+                      <p class="title"> Small and mighty – York is the medieval walled city that really packs a punch.</p>
+                    </div></div>
+                    <div class="card card-block mx-2" style="min-width: 310px;border: 0;">
+                        <img src="https://www.visitbritain.com/sites/cms/files/styles/media_component_4_3_xl/public/lookatmedam/615342l5.jpg.webp?h=2e5cdddf&itok=h4LegVmg" alt="Jane" style="width:100%">
+                        <div class="container"><br>
+                          <h4><b>Windsor</b></h4>
+                          <p class="title"> Lovers of The Crown can wrap themselves in royalty as this town is about as regal as it gets.</p>
+                        </div></div>
+                        <div class="card card-block mx-2" style="min-width: 310px;border: 0;">
+                            <img src="https://www.visitbritain.com/sites/cms/files/styles/media_component_4_3_xl/public/lookatmedam/605834l5.jpg.webp?h=9258b220&itok=PPhYAI_z" alt="Jane" style="width:100%">
+                            <div class="container"><br>
+                              <h4><b>Oxford</b></h4>
+                              <p class="title"> Just an hour by train from London and you’re in the city of dreaming spires.</p>
+                            </div></div>
+                      
+</div><br><br>
+    </div>
+    <div class="container-fluid" id="exp"><br>
+    
+      <p style="font-size: 2rem;text-align: center;color: rgb(54, 54, 162);"><b>Top Country Destinations</b><br></p>
+
+<p style="text-align: center;font-size: 1.2rem;">Step into the great outdoors with rolling hily landscapes, sparkling lakes and <br>
+  blooming gardens across Great Britain and Northern Ireland. Whether it's a <br>
+  peaceful wander through ancient woodlands or an adrenaline filled adventure <br>
+  on the nation's longest zipline - Great Britain's countryside has got you covere</p>
+
+      <br>
+          
+      
+              <div class="card-deck" style="margin:auto ;font-family: 'Times New Roman', Times, serif ;text-align: center;">
+                <div class="card-group" style="text-align:center;margin:auto;" >
+                  <div class="card" style="width:330px;transform: none;border: 0;">
+                  <img class="card-img-top"  src="https://www.visitbritain.com/sites/cms/files/styles/media_component_3_4_xl/public/lookatmedam/602709l5.jpg.webp?h=e8885b35&itok=t98duz8N" alt="Forest" width="250" height="500" class="mx-auto d-block">
+                  
+                  <div class="card-img-overlay">
+                    <p class="card-body  text-center"><br>
+                      <h1 style="color:white ;font-size: 30px; background: rgb(0, 0, 0); 
+                      background: rgba(0, 0, 0, 0.5);
+                      margin-top: 250px;">
+                      <b>Peak District</b></h1></p><a href="#"></a>
+                    </div>
+                  </div>
+
+
+                  <div class="card" style="width:330px;transform: none;border: 0;">
+                    <img class="card-img-top"  src="https://www.visitbritain.com/sites/cms/files/styles/media_component_3_4_xl/public/lookatmedam/601421l5.jpg.webp?h=4997dc06&itok=cNfLKbSN" alt="Forest" width="250" height="500" class="mx-auto d-block">
+                    
+                    <div class="card-img-overlay">
+                      <p class="card-body  text-center"><br>
+                        <h1 style="color:white ;font-size: 30px; background: rgb(0, 0, 0); 
+                        background: rgba(0, 0, 0, 0.5);
+                        margin-top: 250px;">
+                        <b>Cornwall</b></h1></p><a href="#"></a>
+                    </div>
+                    </div>
+
+                    <div class="card" style="width:330px;transform: none;border: 0;">
+                    <img class="card-img-top"  src="https://www.visitbritain.com/sites/cms/files/styles/media_component_3_4_xl/public/lookatmedam/609238l5.jpg.webp?h=fd253716&itok=HFsK44p4" alt="Forest" width="250" height="500" class="mx-auto d-block">
+                     <div class="card-img-overlay">
+                      <p class="card-body  text-center"><br>
+                        <h1 style="color:white;font-size: 30px; background: rgb(0, 0, 0); 
+                        background: rgba(0, 0, 0, 0.5);
+                        margin-top: 250px;">
+                        <b>Lake District</b></h1></p><a href="#"></a>
+                      </div>
+                    </div>
+
+
+                      <div class="card" style="width:330px;transform: none;border: 0;">
+                    <img class="card-img-top"  src="https://www.visitbritain.com/sites/cms/files/styles/media_component_3_4_xl/public/lookatmedam/600385l5.jpg.webp?h=56d0ca2e&itok=FMqWePlL" alt="Forest" width="250" height="500" class="mx-auto d-block">
+                    
+                    <div class="card-img-overlay">
+                      <p class="card-body  text-center"><br>
+                        <h1 style="color:rgb(240, 242, 245) ;font-size: 30px; background: rgb(0, 0, 0); 
+                        background: rgba(0, 0, 0, 0.5);
+                        margin-top: 250px;">
+                        <b>The Scottish Highlands</b></h1></p><a href="#"></a>
+                      </div>
+                    </div>
+                        </div></div><br>
+              </div>
+
+              <div class="container-fluid" id="exp"><br>
+    
+                <p style="font-size: 2rem;text-align: center;color: rgb(39, 88, 27);"><b>Top Coast Destinations </b><br></p>
+          
+          <p style="text-align: center;font-size: 1.2rem;">Pristine sandy beaches, fascinating fossils and cinematic cliffscapes await on a <br>
+            trip to Great Britain and Northern Ireland's coastline. From a tranquil escape, to<br>
+             coasteering along the rocky cliff edge - kick off your shoes<br> and explore Britain's coastlines.</p>
+          
+                
+                    <br>
+                
+                        <div class="card-deck" style="margin:auto ;font-family: 'Times New Roman', Times, serif ;text-align: center;">
+                          <div class="card-group" style="text-align:center;margin:auto;" >
+                            <div class="card" style="width:330px;transform: none;border: 0;">
+                            <img class="card-img-top"  src="https://www.visitbritain.com/sites/cms/files/styles/media_component_3_4_xl/public/lookatmedam/601504l5.jpg.webp?h=1a91228d&itok=eiaC522T" alt="Forest" width="250" height="500" class="mx-auto d-block">
+                            <div class="card-img-overlay">
+                              <p class="card-body  text-center"><br>
+                                <h1 style="color:white;font-size: 30px; background: rgb(0, 0, 0); 
+                                background: rgba(0, 0, 0, 0.5);
+                                margin-top: 250px;">
+                                <b>King Charles ||| England Coast Path</b></h1></p><a href="#"></a>
+                              </div>
+                            <h4 class="card-title" style="color: rgb(82, 79, 79);"><br><b></b></h4><br>
+                            </div>
+          
+          
+                            <div class="card" style="width:330px;transform: none;border: 0;">
+                              <img class="card-img-top"  src="https://www.visitbritain.com/sites/cms/files/styles/media_component_3_4_xl/public/lookatmedam/602381l5.jpg.webp?h=7751f3e6&itok=RMm4W7Ve" alt="Forest" width="250" height="500" class="mx-auto d-block">
+                              <div class="card-img-overlay">
+                                <p class="card-body  text-center"><br>
+                                  <h1 style="color:white;font-size: 30px; background: rgb(0, 0, 0); 
+                                  background: rgba(0, 0, 0, 0.5);
+                                  margin-top: 250px;">
+                                  <b>Wales Coast Path</b></h1></p><a href="#"></a>
+                                </div>
+                              <h4 class="card-title" style="color: rgb(82, 79, 79);"><br><b></b></h4><br>
+                              </div>
+          
+                              <div class="card" style="width:330px;transform: none;border: 0;">
+                              <img class="card-img-top"  src="https://www.visitbritain.com/sites/cms/files/styles/media_component_3_4_xl/public/lookatmedam/613200l5.jpg.webp?h=1d4eb506&itok=h0s54K24" alt="Forest" width="250" height="500" class="mx-auto d-block">
+                              <div class="card-img-overlay">
+                                <p class="card-body  text-center"><br>
+                                  <h1 style="color:white;font-size: 30px; background: rgb(0, 0, 0); 
+                                  background: rgba(0, 0, 0, 0.5);
+                                  margin-top: 250px;">
+                                  <b>North Coast 500</b></h1></p><a href="#"></a>
+                                </div>
+                              <h4 class="card-title" style="color: rgb(82, 79, 79);"><br><b></b></h4><br>
+                              </div>
+                                            
+          
+                                <div class="card" style="width:330px;transform: none;border: 0;">
+                              <img class="card-img-top"  src="https://www.visitbritain.com/sites/cms/files/styles/media_component_3_4_xl/public/lookatmedam/600844l5.jpg.webp?h=56d0ca2e&itok=_pqeKZai" alt="Forest" width="250" height="500" class="mx-auto d-block">
+                              <div class="card-img-overlay">
+                                <p class="card-body  text-center"><br>
+                                  <h1 style="color:white;font-size: 30px; background: rgb(0, 0, 0); 
+                                  background: rgba(0, 0, 0, 0.5);
+                                  margin-top: 250px;">
+                                  <b>Jurassic Coast</b></h1></p><a href="#"></a>
+                                </div>
+                              <h4 class="card-title" style="color: rgb(82, 79, 79);"><br><b></b></h4><br>
+                              </div>
+                                  </div></div><br><br>
+                         
+                        
+                        <br>
+                        <br><br>
+                        
+                        
+                           
+                          
+                        </div>
+                       
+                          <div class="container" >
+                     <div class="container mt-6">
+                        <div class="row" >
+                          <div class="col-sm-6" >
+                            <img   src="https://www.visitbritain.com/sites/cms/files/styles/media_with_content_block_xl/public/lookatmedam/612814l5.jpg.webp?h=0bec7728&itok=ErqjBsMD" class="responsived" width="500" height="400">
+                             </div>
+                          <div class="col-sm-6">
+                            <h3 style="font-size: 1.8rem;text-align: center;" ><b>Discover Scotland’s unique music scene</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3><br>
+                            <p style="font-size: 1.2rem;text-align: center;">For a truly memorable experience, head to one of Scotland’s unique music festivals. There’s always a party in this northern nation, whether its celebrating Hogmanay, or the Edinburgh International Festival. Music has long been a part of Scotland’s heritage, from its famous bagpipes, to its Celtic heart and rock soul. It hosts diverse and dynamic festivals all year round, including ones held in unforgettable locations, such as the magical Kelburn Garden Party in the grounds of a painted 13th century castle and the Tiree Music Festival on a tiny unspoilt Hebridean island. So pack your bag, grab your ticket and prepare to hear some tunes…</p>
+                            </div>
+                         
+                          
+                            <br>
+                            <br><br>
+                          
+                        </div></div>  
+                        <br>
+                        <br><br></div>
+</body>
+</html>
